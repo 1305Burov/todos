@@ -31,4 +31,34 @@ code {
     margin-right: 75px;
 }
 
+.button {
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    &__delete {
+        color: #CC0000;
+        font-weight: 900;
+        transition: color .3s ease;
+        &:hover  {
+            color: #ff4141;
+        }
+        &:active {
+            color: #CC0000;
+        }
+    }
+    &__complete {
+        color: 	#009900;
+        transition: color .3s ease;
+        &:hover {
+            color: #00CC33;
+        }
+        &:active {
+            color: #009900;
+        }
+    }
+}
+
  

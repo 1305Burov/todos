@@ -1,6 +1,6 @@
 import { useTodos } from '../../hooks/useTodos';
 import Todo from '../Todo/Todo';
-import '../../index.css'
+import '../../index.scss'
 
 
 const TodoList = () => {

@@ -16,9 +16,9 @@ export default function AddTodo() {
     event.target.reset();
   }
   return (
-    <form className="form" onSubmit={createTodo}>
-      <input className="input-create" type="text" name="title" placeholder="Enter todo title" required />
-      <button type="submit">Create</button>
+    <form className="create__form" onSubmit={createTodo}>
+      <input className="create__input" type="text" name="title" placeholder="Enter todo title" required />
+      <button className="button create__button" type="submit">&#43;</button>
     </form>
   );
 }

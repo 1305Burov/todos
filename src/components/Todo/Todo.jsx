@@ -20,8 +20,8 @@ export default function Todo({ todo }) {
     return (
       <div className={completedClassName}>
         <h3>{todo.title}</h3>
-        {!todo.completed && <button onClick={completeTodo}>Complete!</button>}
-        {todo.completed && <button onClick={deleteTodo}>Delete!</button>}
+        {!todo.completed && <button className="button button__complete" onClick={completeTodo}>&#10004;</button>}
+        {todo.completed && <button className="button button__delete" onClick={deleteTodo}>{'\u2715'}</button>}
       </div>
     );
 }
