@@ -1,9 +1,15 @@
+import TodosProvider from './context/todosContext';
+import TodoList from './components/TodoList/TodoList';
+import AddTodo from './components/AddTodo/AddTodo';
+
+
 function App() {
+
   return (
-     <>
-        <h1>Title</h1>
-        <p>Some words</p>
-     </>
+     <TodosProvider>
+        <AddTodo />
+        <TodoList />
+     </TodosProvider>
   );
 }
 

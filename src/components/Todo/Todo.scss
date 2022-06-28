@@ -1,0 +1,10 @@
+.completed h3 {
+    text-decoration: line-through;
+}
+
+.todo__box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
