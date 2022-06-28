@@ -12,9 +12,11 @@
     &__input {
         flex: 1 1 auto;
         width: 100%;
-        height: 50px;
+        height: 84px;
         margin-right: 24px;
         padding: 20px;
+        font-weight: 600;
+        font-size: 21px;
         box-sizing: border-box;
     }
     &__button {
