@@ -11,9 +11,9 @@ export default function AddTodo() {
       completed: false,
       title: event.target.title.value.trim(),
     };
-    if (newTodo.title) {
-        setTodos((prevTodos) => [...prevTodos, newTodo]);
-    }
+     
+    newTodo.title && setTodos((prevTodos) => [...prevTodos, newTodo]);
+    
     event.target.reset();
   }
   return (

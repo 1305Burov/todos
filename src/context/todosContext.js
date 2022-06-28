@@ -6,12 +6,12 @@ const someTodo = [
     {
         id: 1, 
         completed: false,
-        title: 'sometext'
+        title: 'I\'ll do...'
     },
     {
         id: 2, 
         completed: false,
-        title: 'sometext and something else'
+        title: 'I\'m going to do...'
     },
     {
         id: 3, 
